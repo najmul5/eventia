@@ -1,0 +1,117 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+#hero-area {
+     height: 700px; 
+}
+#conference-schedule .nav-tabs .nav-item {
+    margin: 0px;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+#hero-area {
+    height: 650px;
+}
+.user-info-inner .row .col-md-6:first-child .user-info {
+    margin-left: 6px;
+}
+.hero-area-left h3 {
+    font-size: 23px;
+}
+.hero-area-left h1 {
+    font-size: 79px;
+    line-height: 60px;
+}
+.hero-area-left h1 span {
+    font-size: 50px;
+}
+.explore-business-details h2 {
+    font-size: 18px;
+}
+.explore-details {
+    font-size: 15px;
+}
+.explore-business-details {
+    margin-bottom: 20px;
+}
+.single-about-info h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.single-about-info p, .single-about-info a, #largest-event-summit p {
+    font-size: 13px;
+}
+#largest-event-summit h1 {
+    font-size: 45px;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+#hero-area {
+    height: auto;
+}
+.hero-area-right .user-info i {
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+.user-info-inner .row .col-lg-6:first-child .user-info {
+    border-color: transparent;
+}
+.explore-business-details {
+    margin-bottom: 15px;
+}
+.explore-business-details h2 {
+    font-size: 21px;
+}
+.explore-details {
+    font-size: 15px;
+}
+.business-explore-video {
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+#largest-event-summit h1 {
+    font-size: 28px;
+}
+#largest-event-summit p {
+    font-size: 12px;
+}
+.all-sponsor-title h1 {
+    font-size: 32px;
+}
+.single-sponsor {
+    width: 33%;
+}
+#conference-schedule .nav-tabs {
+    margin-left: 9% !important;
+}
+.conference-schedule-title h1 {
+    font-size: 24px;
+}
+.single-recent-post {
+    padding: 20px !important;
+}
+.aseees-box {
+    width: 80%;
+    margin: 0 auto;
+}
+.social-link li {
+    padding: 8px 13px;
+}
+.hero-area-right, .hero-area-left, .main-menu {
+    margin-left: 4%;
+}
+#hero-area .main-menu.fixed-top {
+    right: 15%;
+    left: 4%;
+}
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
